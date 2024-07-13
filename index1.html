@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style1.css" />
+  <title>Nishant Atras|Developer</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <!-- <img src="img/logo.png" alt="Bankist logo" class="nav__logo" id="logo" designer="Jonas"
+        data-version-number="3.0" /> -->
+      <div class="nav__logo"> Nishant Atras</div>
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Projects</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">About</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Experience</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="#">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__title">
+      <!-- <h1 onclick="alert('HTML alert')"> -->
+      <h1>
+        <!-- Green highlight effect -->
+        <span class="highlight">Learning Unknown </span><br />
+        <span class="highlight">Creating the Known</span>
+      </h1>
+      <h4>The best way to predict the future is to create it.</h4>
+      <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      <img src="img/hero.png" class="header__img " alt="Minimalist bank items" />
+    </div>
+  </header>
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Projects</h2>
+      <h3 class="section__header">
+        Pioneering Innovation: Discover Our Trailblazing Projects
+      </h3>
+    </div>
+
+    <div class="Projects">
+      <img src="img/digital-lazy.jpg" data-src="img/digital.jpg" alt="Computer" class="Projects__img lazy-img" />
+      <div class="Projects__feature">
+        <!-- <div class="Projects__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-monitor"></use>
+          </svg>
+        </div> -->
+        <h5 class="Projects__header">Duke Banking System: Streamline Your Finances, Seamlessly Manage Transactions,
+          Loans,
+          Statements,
+          and
+          More</h5>
+        <p>
+          Engineered a comprehensive online banking system, allowing users to create accounts, transact money, transfer
+          funds, and
+          apply for loans. <br>
+          Ensured high responsiveness and cross-platform compatibility, enhancing user experience and accessibility on
+          various
+          devices. <br>
+          Integrated robust validation and error-handling mechanisms, improving overall reliability and functionality by
+          25%. <br>
+        </p>
+      </div>
+
+      <div class="Projects__feature">
+        <!-- <div class="Projects__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-trending-up"></use>
+          </svg>
+        </div> -->
+        <h5 class="Projects__header">Food Doof:Your Gateway to Saving, Exploring, and Creating Delicious Recipes </h5>
+        <p>
+          Developed and maintained responsive, cross-browser-compatible web applications, enhancing user accessibility
+          and engagement.<br>
+          Implemented robust MVC architecture and integrated RESTful APIs, resulting in streamlined development
+          processes and a 25% improvement in application performance. <br>
+          Executed comprehensive debugging and unit testing protocols, ensuring high-quality code and reducing system
+          errors by 30%. <br>
+        </p>
+      </div>
+
+      <img src="img/fooddoof.png" data-src="img/fooddoof.png" alt="Plant" class="Projects__img lazy-img" />
+
+      <img src="img/heaventop.png" data-src="img/heaventop.png" alt="Credit card" class="Projects__img lazy-img" />
+      <div class="Projects__feature">
+        <!-- <div class="Projects__icon">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-credit-card"></use>
+          </svg>
+        </div> -->
+        <h5 class="Projects__header">HeavenTop: Effortless Hotel Operations: SimplifyManagement, Reservations, and Guest
+          Experiences</h5>
+        <p>
+          Streamlines the process of room booking and management for both guests and hotel staff. <br>
+          Enhances guest experience by providing a user-friendly platform for booking and managing reservations. <br>
+          Improves hotel operations by centralizing reservation management and providing real-time analytics.
+          <br>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">About</h2>
+      <h3 class="section__header">
+        Crafting Digital Solutions with Innovation and Precision
+      </h3>
+    </div>
+
+    <div class="About">
+      <div class="About__tab-container">
+        <button class="btn About__tab About__tab--1 About__tab--active" data-tab="1">
+          <span>01</span>Introduction
+        </button>
+        <button class="btn About__tab About__tab--2" data-tab="2">
+          <span>02</span>Education
+        </button>
+        <button class="btn About__tab About__tab--3" data-tab="3">
+          <span>03</span>Resume
+        </button>
+      </div>
+      <div class="About__content About__content--1 About__content--active">
+        <div class="About__icon About__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-upload"></use>
+          </svg>
+        </div>
+        <h5 class="About__header">
+          Hi!👋
+        </h5>
+        <p>
+          Welcome! I'm <b>Nishant Atras</b>, a <b>passionate developer</b> born in Ghaziabad, Uttar Pradesh. From a
+          young age,
+          I've
+          always dreamt
+          of pursuing things that excite me and fill me with passion and enthusiasm.
+          <br>
+          <b>I love playing sports, reading, and traveling.</b> Having competed in team sports at both national and
+          regional
+          levels, I've
+          developed a <b>strong sense of teamwork and discipline.</b>
+          <br>
+          I find immense joy in helping people and learning with the community. I'm not afraid to share my problems and
+          actively
+          engage in the process of failing and evolving, as I believe this is the path to growth.
+
+        </p>
+      </div>
+
+      <div class="About__content About__content--2">
+        <div class="About__icon About__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="About__header">
+          Education 📚
+        </h5>
+        <p>
+          <b>Maharaja Surajmal Institute Of Technology</b>
+          I am currently pursuing a <b>Bachelor of Technology (BTech) in Computer Science</b>at Maharaja Surajmal
+          Institute Of
+          Technology, where I have maintained a grade of 8.7. During my time here, I have been actively involved in IEEE
+          MSIT and
+          TECHSOC MSIT.
+          <br>
+          <b>Dehradun Public School (DDPS)</b>, India - 12th Grade
+          I completed my 12th grade at Dehradun Public School (DDPS), India, with a grade of 8.9. During this time, I
+          also
+          participated national handball championship.
+          <br>
+          <b>Dehradun Public School (DDPS)</b>, India - 10th Grade
+          I completed my 10th grade at DDPS with a grade of 8.6.
+        </p>
+      </div>
+      <div class="About__content About__content--3">
+        <!-- <div class="About__icon About__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-user-x"></use>
+          </svg>
+        </div> -->
+        <h5 class="About__header">
+          Resume
+        </h5>
+        <a href="https://drive.google.com/file/d/1REj786pcb3U9bMSx_v3lJltJQZBuMWd1/view?usp=drive_link"><button
+            class="About__button">Download CV</button></a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class=" section" id="section--3">
+    <div class="section__title section__title--Experiences">
+      <h2 class="section__description">Experience</h2>
+      <h3 class="section__header">
+
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide">
+        <div class="Experience">
+          <h5 class="Experience__header">Technical Manager at TECHSOC MSIT</h5>
+          <blockquote class="Experience__text">
+            Managed logistics and secured sponsorships for hackathons, fostering innovation and coding proficiency. <br>
+            Orchestrated networking events, oversaw alumni communications, and facilitated mentorship panels. <br>
+            Curated seminar topics, invited 5 speakers, and managed technical aspects for 8 sessions on industry trends
+            and skill
+            development, attracting over 500 attendees. <br>
+          </blockquote>
+          <address class="Experience__author">
+            <img src="img/techsoc.png" alt="" class="Experience__photo" />
+            <h6 class="Experience__name">TECHSOC MSIT</h6>
+            <p class="Experience__location">Delhi</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="Experience">
+          <h5 class="Experience__header">
+            Web Developer at IEEE MSIT
+          </h5>
+          <blockquote class="Experience__text">
+            Delivered technical solutions for web development challenges, slashing resolution time by 50% and enhancing
+            customer retention rates by 30% through targeted problem-solving and efficient communication. <br>
+            Engineered high-impact coding modules in collaboration with a team of 10 developers optimized codebase and
+            reduced application load times by 40%, significantly enhancing user experience. <br>
+          </blockquote>
+          <address class="Experience__author">
+            <img src="img/ieee.jpeg" alt="" class="Experience__photo" />
+            <h6 class="Experience__name">IEEE MSIT</h6>
+            <p class="Experience__location">Delhi</p>
+          </address>
+        </div>
+      </div>
+
+      <!-- <div class="slide">
+        <div class="Experience">
+          <h5 class="Experience__header">
+            Finally free from old-school banks
+          </h5>
+          <blockquote class="Experience__text">
+            Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+            incidunt commodi architecto numquam omnis nulla autem,
+            necessitatibus blanditiis modi similique quidem. Odio aliquam
+            culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+            deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+            alias reiciendis, perferendis facere.
+          </blockquote>
+          <address class="Experience__author">
+            <img src="img/user-3.jpg" alt="" class="Experience__photo" />
+            <h6 class="Experience__name">Francisco Gomes</h6>
+            <p class="Experience__location">Lisbon, Portugal</p>
+          </address>
+        </div>
+      </div> -->
+
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <section class="section section--sign-up">
+    <div class="section__title">
+      <h3 class="section__header">
+        Let's Create Something Amazing!
+      </h3>
+    </div>
+    <button class="btn btn--show-modal">Reach Out and Let's Make Ideas Happen!</button>
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#">Projects</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">About</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Experience</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Contact Us</a>
+      </li>
+    </ul>
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a href="https://www.linkedin.com/in/nishant-atras-b94284199/" class="footer__link"><img class=" footer__logo"
+            src="/img/linkedin.png" alt=""></a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://x.com/AtrasNishant"><img class=" footer__logo" src="img/twitter.png"
+            alt=""></a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#"><img class=" footer__logo" src="img/instagram.png" alt=""></a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#"><img src="img/gmail.png" class=" footer__logo" alt=""></a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://leetcode.com/u/NishantAtras/"><img
+            src="img/7. How Do Websites Actually Work.svg" class=" footer__logo" alt=""></a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="https://www.hackerrank.com/profile/nishantatras"><img src="img/hackerrank.svg"
+            class=" footer__logo" alt=""></a>
+      </li>
+    </ul>
+    <!-- <img src="img/icon.png" alt="Logo" class="footer__logo" /> -->
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Let's Connect !
+    </h2>
+    <form class="modal__form" action="mailto:nishantatras2000@gmail.com" method="GET" enctype="text/plain"
+      onsubmit="reset(); return false;">
+      <label>Your Name</label>
+      <input class=" name" id="name" type="text" required />
+      <label>Subject</label>
+      <input class="subject" id="subject" type="text" required />
+      <label>Message</label>
+      <textarea class="message" id="message" rows="2" type="text"></textarea>
+      <button class="btn" id="createAccBtn">Submit</button>
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <!-- <script src="script.js"></script> -->
+</body>
+<script defer src="script1.js"></script>
+
+</html>
