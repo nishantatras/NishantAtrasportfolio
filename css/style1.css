@@ -348,7 +348,7 @@ h4 {
 
 .About__content--active {
   display: grid;
-  grid-template-columns: 7rem 1fr;
+  grid-template-columns: 10rem 1fr;
   column-gap: 3rem;
   row-gap: 0.5rem;
 }
